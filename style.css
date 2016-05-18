@@ -3,10 +3,11 @@ body, html{
       padding:0px;
       }
       
-      #menu}
-      width: 100%;
+      #menu {
+     
       height: 75px; 
       position: fixed;
+      width: 100%;
       bo-shadow: 1px 1 px 1px #AAA;
       background-color: white;
 }
@@ -21,6 +22,10 @@ li{
       padding-right: 20px;
 }
 
+.liens {
+    float: right;
+}
+
 ul li a{ 
       font-size: 14px;
       letter-spacing: 1px;
@@ -31,7 +36,7 @@ ul li a{
 }
 
 #contenu{
-      padding-top: 70px;
+      padding-top: 150px;
       background-color: #FFDB00;
       font-family: "Apercu Regular", Helvetica, Arial, sans-serif;
       text-align: center; 
@@ -73,8 +78,12 @@ h2{
 #footer{
 background-color: #262626;
 height:350px;
-floot:left;
+float:left;
 width:100%;
 position: absolute
 }
+
+.text { 
+color: white;
+font-family: Arial;
     
